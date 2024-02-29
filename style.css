@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    background-color: rgb(3, 38, 26);
+}
+#cp-acc{
+  
+}
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  #LO{
+    width: 40px;
+    height: 40px;
+  }
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: orangered;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+ color: orangered;
+
+  }
+  button{
+    background-color: orangered;
+    border: none;
+    font-size: 25px;
+    color: white;
+  }
+  #right{
+    float: right;
+
+  }
+  #bg{
+    width: 500px;
+    height: 400px;
+    border-radius: 50%;
+    margin-right: 20px;
+    
+ }
+  #left{
+    float: left;
+    color: white;
+    margin: 80px;
+    
+  }
+  #A{
+    color: orangered;
+    font-size: 16px;
+  }
+
+  #Pa{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #Product{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 10px;
+  }
+  #d-left{
+    background-color: white;
+    border-right: 2px solid green;
+    margin: 20px;
+    
+  }
+
+  .dp-left{
+    float: left;
+    width: 100%;
+  }
+
+  #d-right{
+background-color: rgb(226, 235, 214);
+  }
+  #Categories{
+    float: left;
+  }
+ .Cat-i{
+  width: 80px;
+  height: 50px;
+  float: left;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .Cat-ii{
+  width: 70px;
+  height: 50px;
+  float: left;
+ }
+
+ #Popu{
+  float: left;
+  width: 100%;
+  display: flex;
+ }
+
+ #Pop{
+  float: left;
+ 
+
+ }
+
+ .Pop-prod{
+  width: 170px;
+  height: 150px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .Pop-produc{
+  width: 110px;
+  height: 100px;
+  margin-right: 14px;
+  
+ }
+ #Discr {
+  float: left;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  
+}
+
+#Disc {
+  float: left;
+  
+}
+
+#Disct {
+  float: left;
+  width: 100%;
+  display: flex;
+}
+
+h1,
+#Vm {
+  float: left;
+  display: flex;
+  text-align: center;
+}
+
+#Vm {
+  color: green;
+  margin-left: 300px;
+  padding-top: 10px;
+}
+
+.discsels {
+  width: 170px;
+  height: 150px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden; /* Pour cacher le débordement de la légende */
+}
+
+.discsels:hover .images-caption {
+  opacity: 1;
+  transform: translateY(0); /* Afficher complètement la légende au survol */
+}
+
+.images-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Pour couvrir complètement le conteneur */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 0 0 8px 8px;
+  color: #fff;
+  text-align: left;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; /* Ajouter la transition pour l'animation */
+   z-index:1 ;
+}
+
+.discseli {
+  width: 100%; /* Ajuster la largeur de l'image pour couvrir complètement le conteneur */
+  height: 100%; /* Ajuster la hauteur de l'image pour couvrir complètement le conteneur */
+  border-radius: 8px;
+  margin-right: 14px;
+}
+
+.survol{
+  font-size: 10px;
+  margin-top: 20px;
+}
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+
+  }
+}
